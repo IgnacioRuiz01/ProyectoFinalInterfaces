@@ -44,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Chema-Programacion\\source\\repos\\Interfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces.csproj",
+      "projectUniqueName": "C:\\Users\\Chema-Programacion\\source\\repos\\Interfaces\\ProyectoFinal2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces.csproj",
       "projectName": "Proyecto2TrimestreInterfaces",
-      "projectPath": "C:\\Users\\Chema-Programacion\\source\\repos\\Interfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces.csproj",
+      "projectPath": "C:\\Users\\Chema-Programacion\\source\\repos\\Interfaces\\ProyectoFinal2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces.csproj",
       "packagesPath": "C:\\Users\\Chema-Programacion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Chema-Programacion\\source\\repos\\Interfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\obj\\",
+      "outputPath": "C:\\Users\\Chema-Programacion\\source\\repos\\Interfaces\\ProyectoFinal2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Chema-Programacion\\AppData\\Roaming\\NuGet\\NuGet.Config",

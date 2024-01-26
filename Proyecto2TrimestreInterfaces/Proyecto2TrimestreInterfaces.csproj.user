@@ -7,12 +7,30 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ConsultaPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InicioPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PorductsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ventana2.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ConsultaPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InicioPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PorductsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\ButtonStyles.xaml">

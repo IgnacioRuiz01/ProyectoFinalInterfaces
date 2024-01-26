@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Chema-Programacion\source\repos\Interfaces\Proyecto2TrimestreInterfaces\Proyecto2TrimestreInterfaces\obj\Debug\net6.0-windows\
+C:\Users\Chema-Programacion\source\repos\Interfaces\ProyectoFinal2TrimestreInterfaces\Proyecto2TrimestreInterfaces\obj\Debug\net6.0-windows\
 Proyecto2TrimestreInterfaces
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Chema-Programacion\source\repos\Interfaces\Proyecto2TrimestreInterfaces\Proyecto2TrimestreInterfaces\App.xaml
-41324073322
+C:\Users\Chema-Programacion\source\repos\Interfaces\ProyectoFinal2TrimestreInterfaces\Proyecto2TrimestreInterfaces\App.xaml
+7-1090023564
 
-4-193425394
+72087423565
 204749732018
-MainWindow.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;ventana2.xaml;
+ConsultaPage.xaml;InicioPage.xaml;MainWindow.xaml;PorductsPage.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;ventana2.xaml;
 
 False
 

@@ -49,7 +49,7 @@ namespace Proyecto2TrimestreInterfaces
             {
                 MessageBox.Show("Debe introducir un usuario correcto");
             }
-            else if (txtUser.Text.Equals("root") && txtPass.Password.ToString().Equals("root"))
+            else if (!txtUser.Text.Equals(" ") && txtPass.Password.ToString().Equals("root"))
             {
                 ventana2 v2 = new ventana2(user);
                 v2.Show();

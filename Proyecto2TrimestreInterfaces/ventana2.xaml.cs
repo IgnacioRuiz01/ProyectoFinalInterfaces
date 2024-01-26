@@ -24,7 +24,7 @@ namespace Proyecto2TrimestreInterfaces
         {
             InitializeComponent();
             this.user = user;
-            textBienvenido.Text = "Bienvenido, " + user;
+            frame.Navigate(new InicioPage(user));
         }
 
         [DllImport("user32.dll")]
@@ -68,5 +68,20 @@ namespace Proyecto2TrimestreInterfaces
         {
 
         }
+
+        private void Products_Click(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(new PorductsPage());
+        }
+        private void Inicio_Click(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(new InicioPage(user));
+        }
+
+        private void Consulta_Click(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(new ConsultaPage());
+        }
+
     }
 }

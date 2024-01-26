@@ -13,8 +13,6 @@
         Background="Transparent"
         AllowsTransparency="True">
 
-
-
     <Border CornerRadius="10"
         BorderThickness="1">
 
@@ -61,7 +59,7 @@
                     <!-- Menu Buttons -->
                     <RadioButton Style="{StaticResource menuButton}"
                                  Tag="{StaticResource color1}"
-                                 Click="RadioButton_Click">
+                                 Click="Inicio_Click">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="Home" Style="{StaticResource menuButtonIcon}"/>
                             <TextBlock Text="Inicio" Style="{StaticResource menuButtonText}"/>
@@ -69,7 +67,8 @@
                     </RadioButton>
 
                     <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{StaticResource color2}">
+                                 Tag="{StaticResource color2}"
+                                 Click="Products_Click">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="ProductHunt" Style="{StaticResource menuButtonIcon}"/>
                             <TextBlock Text="Productos" Style="{StaticResource menuButtonText}"/>
@@ -77,18 +76,11 @@
                     </RadioButton>
 
                     <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{StaticResource color3}">
+                                 Tag="{StaticResource color3}"
+                                 Click="Consulta_Click">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="MagnifyingGlassPlus" Style="{StaticResource menuButtonIcon}"/>
                             <TextBlock Text="Consultas" Style="{StaticResource menuButtonText}"/>
-                        </StackPanel>
-                    </RadioButton>
-
-                    <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{StaticResource color4}">
-                        <StackPanel Orientation="Horizontal">
-                            <fa:IconImage Icon="Person" Style="{StaticResource menuButtonIcon}"/>
-                            <TextBlock Text="Clientes" Style="{StaticResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
 
@@ -99,7 +91,6 @@
                             <TextBlock Text="Salir" Style="{StaticResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
-
                 </StackPanel>
 
             </Border>
@@ -119,11 +110,10 @@
                         <!-- Control bar -->
                         <RowDefinition Height="25"/>
                         <!-- Header / caption -->
-                        <RowDefinition Height="35"/>
-                        <!-- Content Section -->
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
+                    <!-- Barra de Control -->
                     <StackPanel x:Name="pnlControlBar"
                                 Grid.Row="0"
                                 Orientation="Horizontal"
@@ -155,49 +145,15 @@
                         </Button>
                     </StackPanel>
 
-                    <!-- Header / Caption -->
-                    <Grid Grid.Row="1">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-
-                        <!--Caption-->
-                        <StackPanel Grid.Column="0"
-                                    Orientation="Horizontal"
-                                    VerticalAlignment="Center">
-                            <fa:IconImage Icon="Home"
-                                          Height="20"
-                                          Width="20"
-                                          Foreground="{StaticResource titleColor2}"
-                                          Margin="35,0,10,0"/>
-
-                            <TextBlock Text="Inicio"
-                                       Foreground="{StaticResource titleColor2}"
-                                       FontSize="16"
-                                       FontFamily="Montserrat"
-                                       FontWeight="Medium"
-                                       VerticalAlignment="Center"/>
-                        </StackPanel>
-
-                    </Grid>
-
-                    <ContentControl
-                                    Grid.Row="2"
-                                    Margin="25">
-                        <TextBlock x:Name="textBienvenido" 
-                            HorizontalAlignment="Left"
-                                   Margin="-244,575,0,0"
-                                   TextWrapping="Wrap"
-                                   Text="Bienvenido, "
-                                   VerticalAlignment="Top"
-                                   FontFamily="Montserrat"
-                                   Foreground="{StaticResource titleColor2}"/>
-                    </ContentControl>
-
+                    <Frame  x:Name="frame"
+                            Grid.Row="1"
+                            NavigationUIVisibility="Hidden"
+                            Width="1000"
+                            Height="620"
+                            Background="Transparent">
+                    </Frame>
                 </Grid>
             </Border>
-
         </Grid>
     </Border>
 </Window>
