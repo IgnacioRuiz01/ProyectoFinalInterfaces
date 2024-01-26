@@ -85,7 +85,8 @@
                     </RadioButton>
 
                     <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{StaticResource color5}">
+                                 Tag="{StaticResource color5}"
+                                 Click="exitClick">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="RightFromBracket" Style="{StaticResource menuButtonIcon}"/>
                             <TextBlock Text="Salir" Style="{StaticResource menuButtonText}"/>

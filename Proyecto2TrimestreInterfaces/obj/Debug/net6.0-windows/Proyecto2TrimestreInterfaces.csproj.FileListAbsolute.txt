@@ -60,3 +60,5 @@ C:\Users\Chema-Programacion\source\repos\Interfaces\ProyectoFinal2TrimestreInter
 C:\Users\Chema-Programacion\source\repos\Interfaces\ProyectoFinal2TrimestreInterfaces\Proyecto2TrimestreInterfaces\obj\Debug\net6.0-windows\InicioPage.g.cs
 C:\Users\Chema-Programacion\source\repos\Interfaces\ProyectoFinal2TrimestreInterfaces\Proyecto2TrimestreInterfaces\obj\Debug\net6.0-windows\ConsultaPage.baml
 C:\Users\Chema-Programacion\source\repos\Interfaces\ProyectoFinal2TrimestreInterfaces\Proyecto2TrimestreInterfaces\obj\Debug\net6.0-windows\InicioPage.baml
+C:\Users\Chema-Programacion\source\repos\Interfaces\ProyectoFinal2TrimestreInterfaces\Proyecto2TrimestreInterfaces\obj\Debug\net6.0-windows\exitPage.g.cs
+C:\Users\Chema-Programacion\source\repos\Interfaces\ProyectoFinal2TrimestreInterfaces\Proyecto2TrimestreInterfaces\obj\Debug\net6.0-windows\exitPage.baml
