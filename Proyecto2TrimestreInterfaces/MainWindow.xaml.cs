@@ -55,8 +55,6 @@ namespace Proyecto2TrimestreInterfaces
                 v2.Show();
                 this.Close();
             }
-
-            
         }
     }
 }

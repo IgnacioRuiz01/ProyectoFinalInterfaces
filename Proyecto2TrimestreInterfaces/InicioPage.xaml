@@ -17,6 +17,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <!-- Texto Pestaña -->
         <StackPanel Grid.Row="0"
                     Orientation="Horizontal"
                     VerticalAlignment="Top">
@@ -34,6 +35,7 @@
                        VerticalAlignment="Center"/>
         </StackPanel>
 
+        <!-- Texto Bienvenida -->
         <StackPanel Grid.Row="1"
                     Orientation="Horizontal"
                     VerticalAlignment="Center">
@@ -49,6 +51,48 @@
                        FontFamily="Montserrat"
                        FontWeight="Medium"
                        VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Info Aplicacion -->
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Height="350"
+                    Width="750">
+
+            <TextBlock TextWrapping="Wrap"
+                       Foreground="{StaticResource titleColor2}"
+                       FontSize="30"
+                       Width="750">
+                <Run Text="Programa de Escritorio en WPF:" FontWeight="Bold" FontSize="22"/>
+                <LineBreak/>
+
+                <Run Text="Descripción: " FontWeight="Bold" FontSize="18"/>
+                <Run Text="Es una aplicación diseñada para demostrar algunas características de desarrollo con WPF y .NET. Proporciona una interfaz de usuario intuitiva y funcionalidades básicas." FontSize="18"/>
+                <LineBreak/>
+
+                <Run Text="Características:" FontWeight="Bold"/>
+                <LineBreak/>
+                <Run Text="• Añadir, editar y eliminar registros."/>
+                <LineBreak/>
+                <Run Text="• Interfaz de usuario moderna con WPF."/>
+                <LineBreak/>
+                <Run Text="• Desarrollado con Visual Studio y tecnología .NET."/>
+                <LineBreak/>
+                <Run Text="• Lenguajes utilizados: C# y XAML."/>
+
+                <LineBreak/>
+                <Run Text="Repositorio GitHub:"
+                     FontWeight="Bold"/>
+                <LineBreak/>
+                
+                <Hyperlink NavigateUri="https://github.com/ChemaDvp/ProyectoFinal2TrimestreInterfaces.git"
+                           FontSize="20 "
+                           RequestNavigate="Hyperlink_RequestNavigate">
+                    <Run Text="Click aquí"/>
+                </Hyperlink>
+            </TextBlock>
         </StackPanel>
     </Grid>
 </Page>
