@@ -25,5 +25,10 @@ namespace Proyecto2TrimestreInterfaces
             this.user = user;
             txtSalir.Text = "Hasta pronto, " + user;
         }
+
+        private void logout_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

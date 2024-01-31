@@ -23,6 +23,8 @@ namespace Proyecto2TrimestreInterfaces
         public PorductsPage()
         {
             InitializeComponent();
+            agregarElementos();
+            LlenarDataGridPorDefecto();
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
@@ -39,5 +41,31 @@ namespace Proyecto2TrimestreInterfaces
         {
 
         }
+
+        private void agregarElementos()
+        {
+            List<String> categoriasBD = database.obtenerCategorias();
+            foreach (string elemento in categoriasBD)
+            {
+                btnSelect.Items.Add(elemento);
+            }
+        }
+
+        private void LlenarDataGridPorDefecto()
+        {
+            try
+            {
+                // Obtener los productos desde la base de datos
+                List<String> productos = database.ObtenerProductos();
+
+                // Asignar la lista de productos al ItemSource del DataGrid
+                tabla.ItemsSource = productos;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al llenar el DataGrid: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
     }
 }

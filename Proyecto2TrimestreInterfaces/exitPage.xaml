@@ -11,8 +11,9 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="45"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
@@ -47,6 +48,64 @@
                FontFamily="Montserrat"
                FontWeight="Medium"
                VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Texto Bienvenida -->
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Margin="0,0,0,0">
+
+            <TextBlock TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       Foreground="{StaticResource titleColor2}"
+                       FontSize="30"
+                       Width="750">
+                <Run Text="Espero que te haya servido el proyecto, si es así, dejame tu like en GitHub." FontWeight="Medium" FontSize="20"/>
+                <LineBreak/>
+            </TextBlock>
+        </StackPanel>
+
+        <!-- Texto Bienvenida -->
+        <StackPanel Grid.Row="3"
+            Orientation="Horizontal"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+
+            <Button x:Name="logout"
+                    BorderThickness="0"
+                    Content="Cerrar Sesión"
+                    Foreground="White"
+                    FontSize="12"
+                    FontFamily="Montserrat"
+                    Cursor="Hand"
+                    Grid.Column="2"
+                    Margin="0,50,0,0"
+                    Click="logout_Click">
+
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#6D2FFF"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#28AEED"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Width="150" Height="40"
+                    CornerRadius="20"
+                    Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                  HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
         </StackPanel>
 
     </Grid>

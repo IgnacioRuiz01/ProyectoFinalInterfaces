@@ -114,8 +114,9 @@
         <!-- TABLA -->
         <StackPanel Grid.Row="2"
                     Margin="0,10,0,0">
-            <DataGrid Width="770"
-                      Height="350">
+            <DataGrid x:Name="tabla"
+                      Width="900"
+                      Height="550">
             </DataGrid>
         </StackPanel>
     </Grid>
