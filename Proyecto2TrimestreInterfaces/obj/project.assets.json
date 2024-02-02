@@ -1821,19 +1821,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Chema-Programacion\\.nuget\\packages\\": {}
+    "C:\\Users\\ignac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Chema-Programacion\\source\\repos\\Interfaces\\ProyectoFinal2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces.csproj",
+      "projectUniqueName": "C:\\Users\\ignac\\OneDrive\\Escritorio\\DAM\\2\\Interfaces\\Aplicacion WPF\\ProyectoFinal\\ProyectoFinal2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces.csproj",
       "projectName": "Proyecto2TrimestreInterfaces",
-      "projectPath": "C:\\Users\\Chema-Programacion\\source\\repos\\Interfaces\\ProyectoFinal2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces.csproj",
-      "packagesPath": "C:\\Users\\Chema-Programacion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Chema-Programacion\\source\\repos\\Interfaces\\ProyectoFinal2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\obj\\",
+      "projectPath": "C:\\Users\\ignac\\OneDrive\\Escritorio\\DAM\\2\\Interfaces\\Aplicacion WPF\\ProyectoFinal\\ProyectoFinal2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\Proyecto2TrimestreInterfaces.csproj",
+      "packagesPath": "C:\\Users\\ignac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ignac\\OneDrive\\Escritorio\\DAM\\2\\Interfaces\\Aplicacion WPF\\ProyectoFinal\\ProyectoFinal2TrimestreInterfaces\\Proyecto2TrimestreInterfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Chema-Programacion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ignac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

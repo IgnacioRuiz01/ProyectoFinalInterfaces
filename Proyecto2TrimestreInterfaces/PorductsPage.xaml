@@ -107,7 +107,8 @@
                   Tag="{StaticResource color8}"
                   Width="250"
                   Height="25"
-                  Margin="10,0,0,0">
+                  Margin="10,0,0,0"
+                  SelectionChanged="btnSelect_SelectionChanged">
             </ComboBox>
         </StackPanel>
 

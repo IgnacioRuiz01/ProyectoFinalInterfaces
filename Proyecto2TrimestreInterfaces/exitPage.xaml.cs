@@ -28,6 +28,12 @@ namespace Proyecto2TrimestreInterfaces
 
         private void logout_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow mainWindow = new MainWindow();
+          
+            mainWindow.Show();
+
+            Window.GetWindow(this).Close();
+
 
         }
     }
